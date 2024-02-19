@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid Term</title>
+    <link href="css/mid-term.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="site-title"> Macarons </h1>
+        <nav>
+            <ul class="pages">
+               <li>
+                <a href="story.html" class="story">Story</a>
+               </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <h2>Origin of Macarons</h2> 
+       <section>
+        <img id="macron-image" src="image/macaroons2.webp" alt="image of macarons">
+       </section>
+       <p>Macarons have been produced in the Venetian monasteries since the 8th century A.D.During the Renaissance, French queen Catherine de' Medici's Italian pastry chefs made them when she brought them with her to France in 1533 upon marrying Henry II of France. According to Larousse Gastronomique the macaron was created in 1791 in a convent near Cormery. In 1792, macarons began to gain fame when two Carmelite nuns, seeking asylum in Nancy during the French Revolution, baked and sold the macaron cookies in order to pay for their housing. These nuns became known as the "Macaron Sisters". In these early stages, macarons were served without special flavours or fillings.<br>
+       There is some variation in whether the term macaron or macaroon is used, and the related coconut macaroon is often confused with the macaron. In North America, most bakers have adopted the French spelling of macaron for the meringue-based item to distinguish the two. Stanford professor of linguistics Daniel Jurafsky describes how the two confections have a shared history with macaroni (Italian maccheroni). Jurafsky notes that French words ending with "-on" that were borrowed into English in the 16th and 17th centuries are usually spelled with "-oon" (for example: balloon, cartoon, platoon). In the UK, many bakeries continue to use the term "macaroon".  
+       </p>
+       <h3>Facts about Macarons</h3>
+       <ul class="facts">
+           <li>Macarons come in a variety of flavors, from classic ones like vanilla and chocolate to more unique ones like lavender and matcha.
+        </li>
+           <li>The perfect macaron has a smooth, shiny shell and a soft, chewy interior. Achieving this delicate balance can be quite a challenge for bakers.
+        </li>
+           <li>Macarons are often made with almond flour, egg whites, and powdered sugar. The ingredients are mixed together to create a thick batter that is piped onto baking sheets.
+        </li>
+           <li>Macarons are known for their vibrant colors, which are achieved by adding food coloring to the batter. This makes them not only delicious but also visually appealing.
 
+           </li>
+           <li>Macarons have become a popular treat for special occasions, such as weddings and birthdays. They make for a beautiful and tasty addition to any dessert table.</li>
+       </ul>
+       <h2>Contact to learn more</h2>
+
+    </main>
+</body>
+</html>
