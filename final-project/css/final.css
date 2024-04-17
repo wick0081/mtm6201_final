@@ -66,6 +66,8 @@ a{
 }
 h1{
     font-size: 60px;
+    position: relative;
+    bottom: 40px;
 }
 h2{
     font-size: 48px;
@@ -86,6 +88,7 @@ p{
     line-height: 20px;
     margin-left: 10px;
 }
+
 .image{
     margin-inline:auto;
     background-image: url("../images/main-banner.jpg");
@@ -94,13 +97,23 @@ p{
     margin-bottom: 15px;
 }
 .image-overlay{
-    width: auto;
+    width:auto;
+    position: relative;
+    top:30px;
     object-fit: cover;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(0, 0, 0, 0.5);
     color: white;
     margin-bottom: 40px;
 
+}
+.image-overlay p{
+    position: relative;
+    bottom:60px
+}
+.connect-button{
+    position: relative;
+    bottom: 40px;
 }
 .about-us{
     width: auto;
