@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photography Portfolio</title>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -12,9 +13,9 @@
     <section class="image">
         <div class="container-1">
             <nav class="navbar">
-                <img src="images/A.png" class="logo">
+                <img src="images/A.png" class="logo" alt="Anjalee Photography">
                     <span class="navbar-1"></span>
-                </button>
+
                 <div class="Navbar-2">
                     <ul class="navbaritems">
                         <li class="nav-item active">
@@ -38,55 +39,70 @@
         </div>
    </section>
 
-    <section id="sessions" class="sessions-options">
+    <!-- Session Options Section -->
+    <section id="sessions" class="sessions">
         <div class="container">
-            <h2 class="session-option-h">Session Options</h2>
-        <div id="overlay">
-        <div class="wrapper-grid">
-            <div class="session-option1">
-                    <h3>Portrait</h3>
+            <h2 class="text-center mb-5">Session Options</h2>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="session-option1">
+                        <h3>Portrait</h3>
+                    </div>
                 </div>
-            <div class="session-option2">
-                    <h3>Wedding</h3>
+                <div class="col-md-3 text-center">
+                    <div class="session-option2">
+                        <h3>Wedding</h3>
+                    </div>
                 </div>
-            <div class="session-option3">
-                    <h3>Event</h3>
+                <div class="col-md-3 text-center">
+                    <div class="session-option3">
+                        <h3>Event</h3>
+                    </div>
                 </div>
-            <div class="session-option4">
-                    <h3>New Born</h3>
-               </div>
-        </div>
-        </div>       
+                <div class="col-md-3 text-center">
+                    <div class="session-option4">
+                        <h3>New Born</h3>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="about" class="aboutus">
-        <div class="container-2">
-            <h2>About Us</h2>
-            <p>
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">
                 Steeped in the art of visual storytelling, our photography business has deep roots that date back to 2019.
                 What began as a humble endeavor fueled by a love for capturing moments has blossomed into a creative sanctuary
                 where every click holds the power to immortalize emotions and memories.
             </p>
-            <a href="#" class="btn3">Explore Our Portfolio</a>
+            <div class="text-center">
+                <a href="#" class="btn btn-secondary">Explore Our Portfolio</a>
+            </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact</h2>
             <form>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Name*" required>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Name*" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control" placeholder="Email*" required>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email*" required>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Phone Number*" required>
-                </div>
-                <div class="form-group">
-                    <input type="date" class="form-control" placeholder="Shoot Date" required>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Phone Number*" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="date" class="form-control" placeholder="Shoot Date" required>
+                    </div>
                 </div>
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Shoot Location" required>
@@ -94,19 +110,20 @@
                 <div class="form-group">
                     <textarea class="form-control" rows="4" placeholder="Please share a bit about your vision for this project" required></textarea>
                 </div>
-                <button type="submit" class="btn4">Submit</button>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
             </form>
         </div>
     </section>
 </main>
+</body>
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <p class="mb-0">Copyright &copy; 2024 Anjalee Photography</p>
+    </div>
+</footer>
 
-  
-    <footer class="footer">
-        <p>Copyright &copy; 2024 Anjalee Photography</p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
